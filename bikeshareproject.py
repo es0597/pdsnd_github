@@ -191,14 +191,12 @@ def display_data(df):
     pd.set_option('display.max_columns',200)
 
     while True:
-        if raw_data != 'no':
-            print(df[i:i+5])
-            i +=5
-
-            raw_data = input("Would you like to see 5 more rows of raw data? yes or no:\n").lower()
-        else:
-            break
-            main()
+    display_data = input('\nWould you like to see 5 lines of raw data? Enter yes or no.\n')
+    if display_data.lower() != 'yes':
+        break
+    print(tabulate(df_default.iloc[np.arange(0+i,5+i)], headers ="keys"))
+    i+=5
+    
 
 def main():
     while True:
