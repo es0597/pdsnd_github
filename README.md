@@ -1,15 +1,16 @@
 ### Date created
-Include the date you created this project and README file.
+This GitHub Project was created on January 21, 2021.
 
 ### Project Title
-Replace the Project Title
+The name of this project is **Bike Share**.
 
 ### Description
-Describe what your project is about and what it does
+This Python code imports bike share data for 3 cities in the United States and creates an interactive experience for users to provide the information requested. Data provides statistics on user types, gender and age where available.
 
 ### Files used
-Include the files used
+1.	chicago.csv
+2.	new_york_city.csv
+3.	washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
-
+I frequently consulted the *Udacity Knowledge* site when writing the code for this project.  [link to Udacity Knowledge](https://knowledge.udacity.com/?nanodegree=nd104-ent&page=1&project=510&rubric=2118)
